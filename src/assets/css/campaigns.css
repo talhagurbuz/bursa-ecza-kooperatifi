@@ -1,0 +1,139 @@
+.flexSection{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.leftArea{
+    flex-basis: 85%;
+    margin-right: 15px;
+}
+
+.bigBanner{
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.bannerImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bannerContent{
+    width: max-content;
+    position: absolute;
+    bottom: 5%;
+    left: 1%;
+    right: 1%;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.bannerContent p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dualBanner{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    padding-top: 10px;
+}
+
+.middleBanner{
+    width: 75%;
+    margin-right: 10px;
+}
+
+.smallBanner{
+    width: 25%;
+}
+
+.middleBanner img,
+.smallBanner img{
+    height: 310px;
+}
+
+.smallBanner .bannerContent{
+    width: max-content;
+    position: absolute;
+    bottom: 5%;
+    left: 76%;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.rightArea{
+    flex-basis: 15%;
+}
+
+.rightMenu{
+    padding: 5px;
+}
+
+.menuTitle{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.menuTitle h5{
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 5%;
+}
+
+.menuContent{
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 3px 6px;
+}
+
+.menuItem{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.menuItem:not(:last-child){
+    margin-bottom: 3px;
+}
+
+.menuLink{
+    text-align: center;
+    line-height: 35px;
+}
+
+.rightBanner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rightBannerContent{
+    width: max-content;
+    position: absolute;
+    left: 2%;
+    top: 15%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.rightBannerArea{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}

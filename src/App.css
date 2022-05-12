@@ -1,0 +1,123 @@
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 @codewithsadee
+ */
+
+
+
+
+
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
+
+:root {
+
+    /**
+     * colors
+     */
+  
+    --flourescent-blue: hsl(178, 100%, 49%);
+    --heliotrope-gray: hsl(253, 15%, 70%);
+    --russian-violet: hsl(252, 80%, 16%);
+    --dark-violet: hsl(252, 100%, 12%);
+    --space-cadet: hsl(247, 43%, 20%);
+    --blue-ryb: hsl(221, 100%, 50%);
+    --white: hsl(0, 0%, 100%);
+  
+    --gradient: linear-gradient(to right, var(--flourescent-blue), var(--blue-ryb));
+  
+    /**
+     * typography
+     */
+  
+    --ff-josefin: 'Josefin sans', sans-serif;
+  
+    --fs-1: 25px;
+    --fs-2: 18px;
+    --fs-3: 17px;
+    --fs-4: 15px;
+  
+    --fw-500: 500;
+    --fw-700: 700;
+  
+    /**
+     * transition
+     */
+  
+    --transition: 0.25s ease-in-out;
+  
+    /**
+     * spacing
+     */
+  
+    --section-padding: 30px;
+  
+  }
+  
+  
+  
+  
+  
+  /*-----------------------------------*\
+    #RESET
+  \*-----------------------------------*/
+  
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li { list-style: none; }
+  
+  a { text-decoration: none; }
+  
+  a,
+  img,
+  span,
+  input,
+  button,
+  ion-icon { display: block; }
+  
+  button {
+    font: inherit;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input {
+    font: inherit;
+    border: none;
+    width: 100%;
+  }
+  
+  :focus { outline-offset: 4px; }
+  
+  html {
+    font-family: var(--ff-josefin);
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar { width: 10px; }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--dark-violet);
+    border-left: 1px solid var(--space-cadet);
+  }
+  
+  ::-webkit-scrollbar-thumb { background: hsla(0, 0%, 100%, 0.8); }
+  
+  ::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.6); }
+
+  /* REUSED STYLE */
+
+  .container{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-block: 10px;
+  }

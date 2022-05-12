@@ -1,0 +1,29 @@
+.storyArea{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.storyBorder{
+    border: 3.5px solid rgb(100, 188, 214);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.storyBorder:not(:last-child){
+    margin-right: 5px;
+}
+.storyImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 1px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.storyIcon p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}

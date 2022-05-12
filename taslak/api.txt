@@ -1,0 +1,7 @@
+Sayfa 1' de Bulunan Hikayeler: https://api.bek.org.tr/api/Test/GetStories
+Sayfa 1' de Ortada Bulunan Kampanya ve Reklam Alanı: https://api.bek.org.tr/api/Test/GetCampaigns
+Sayfa 1' de Bulunan Menü: https://api.bek.org.tr/api/Test/GetMenus
+
+Sayfa 2' de Bulunan Hediye Alanı: https://api.bek.org.tr/api/Test/GetGifts
+
+Sayfa 3' de Bulunan Ürün Alanı: https://api.bek.org.tr/api/Test/GetProducts

@@ -84,7 +84,7 @@
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .menuTitle h5{
@@ -111,8 +111,12 @@
 }
 
 .menuLink{
+    color: black;
     text-align: center;
     line-height: 35px;
+}
+.menuLink:active{
+    color: black;
 }
 
 .rightBanner{
@@ -125,7 +129,7 @@
     width: max-content;
     position: absolute;
     left: 2%;
-    top: 15%;
+    top: 6%;
     padding: 10px;
     background-color: white;
     border-radius: 15px;

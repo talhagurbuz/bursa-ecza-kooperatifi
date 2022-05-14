@@ -2,6 +2,11 @@
     display: flex;
     align-items: center;
     margin: 10px 10px;
+    max-width: 1180px;
+    height: 130px;
+    max-height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 .storyBorder{
@@ -26,4 +31,48 @@
     margin-top: 10px;
     text-align: center;
     font-size: 12px;
+}
+.storyFullArea{
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+}
+.storyFullAreaShow{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    z-index: 5;
+    display: block;
+    transition: .3s ease-in;
+}
+.bodyScrollRemove{
+    overflow-y: hidden;
+}
+.storyFull{
+    margin: 0 auto;
+    height: 75%;
+}
+
+.exitIcon{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.exitButton:first-child{
+    color: white;
+}
+
+.storyImageFull{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
